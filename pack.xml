@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
+            xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+    <Server id="singularity" version="1.7.2" abstract="true" revision="1.0.0">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
+        <Module id="codechickencore" name="CodeChickenCore">
+            <URL>http://launcher.dmptr.com/playpack4/mods/codechickencore-1.0.0.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>a0b322352351066770f70ecf56ae1b4d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack4/config/CodeChickenCore.cfg</URL>
+                <Path>config/CodeChickenCore.cfg</Path>
+                <MD5>ee11a8fc6fc8a04bac09db816fa76289</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.0.0</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="nei" name="NEI">
+            <URL>http://launcher.dmptr.com/playpack4/mods/nei-1.0.1.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>f40d0d93115553348eac465d9c44e7ea</MD5>
+            <Meta>
+                <version>1.0.1</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="walia" name="NEI: WALIA">
+            <URL>http://launcher.dmptr.com/playpack4/mods/walia-1.5.2a.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>9bfd4f6e3386825444ce6bdac3ca5528</MD5>
+            <Meta>
+                <version>1.5.2a</version>
+                <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
+            </Meta>
+        </Module>
+        <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">
+            <URL>http://launcher.dmptr.com/playpack4/mods/biomesoplenty-2.0.0.840.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>cf15c5f97430d916286d91e5885aedf2</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack4/config/biomesoplenty/ids.cfg</URL>
+                <Path>biomesoplenty/ids.cfg</Path>
+                <MD5>6565e6f32672467556846908e56de579</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.0.0.840</version>
+                <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
+            </Meta>
+        </Module>
+        <Module id="villagetaverns" name="WorldGen: Village Taverns">
+            <URL>http://launcher.dmptr.com/playpack4/mods/villagetaverns-2.2.1-0.23.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>5db711393219c2beaada3a76ad78a845</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack4/config/taverns.cfg</URL>
+                <Path>taverns.cfg</Path>
+                <MD5>1d3ae6078bf330331abf2939b6c3d927</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.2.1-0.23</version>
+                <URL>http://www.curse.com/mc-mods/minecraft/village-taverns-updated</URL>
+            </Meta>
+        </Module>
+    </Server>
+</ServerPack>
