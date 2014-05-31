@@ -7,3 +7,4 @@ Changelog:
 * 0.0.4: Fix config paths, add Thaumcraft 4
 * 0.0.5: Add the absurdly huge collection of BoP config files
 * 0.0.5.1: DERP
+* 0.0.6: Added JABBA
