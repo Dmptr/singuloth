@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.3">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.4">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -76,7 +76,7 @@
             </Meta>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/taverns.cfg</URL>
-                <Path>taverns.cfg</Path>
+                <Path>config/taverns.cfg</Path>
                 <MD5>1d3ae6078bf330331abf2939b6c3d927</MD5>
             </ConfigFile>
         </Module>
@@ -91,8 +91,23 @@
             </Meta>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/wildcaves3.cfg</URL>
-                <Path>wildcaves3.cfg</Path>
+                <Path>config/wildcaves3.cfg</Path>
                 <MD5>11bf275ec142b74e0cde4e28254b6f23</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="thaumcraft4" name="Thaumcraft 4">
+            <URL>http://singulo.co/mods/thaumcraft-4.1.1.14.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>bbc779b043842ce07497133b233df909</MD5>
+            <Meta>
+                <version>4.1.1.14</version>
+                <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-41114-updated-2052014/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/Thaumcraft.cfg</URL>
+                <Path>config/Thaumcraft.cfg</Path>
+                <MD5>e30a65445fadd1a1898536769fd4aec1</MD5>
             </ConfigFile>
         </Module>
     </Server>
