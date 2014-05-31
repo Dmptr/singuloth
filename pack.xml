@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.5">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.5.1">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -59,6 +59,11 @@
                 <version>2.0.0.840</version>
                 <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
             </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/ids.cfg</URL>
+                <Path>config/biomesoplenty/ids.cfg</Path>
+                <MD5>6565e6f32672467556846908e56de579</MD5>
+           </ConfigFile>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/biomesoplenty/terraingen.cfg</URL>
                 <Path>config/biomesoplenty/terraingen.cfg</Path>
