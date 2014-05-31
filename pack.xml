@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.2">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.3">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -61,7 +61,7 @@
             </Meta>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/biomesoplenty/ids.cfg</URL>
-                <Path>biomesoplenty/ids.cfg</Path>
+                <Path>config/biomesoplenty/ids.cfg</Path>
                 <MD5>6565e6f32672467556846908e56de579</MD5>
             </ConfigFile>
         </Module>
