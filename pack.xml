@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.4">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.5">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -60,9 +60,39 @@
                 <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
             </Meta>
             <ConfigFile>
-                <URL>http://singulo.co/develop/config/biomesoplenty/ids.cfg</URL>
-                <Path>config/biomesoplenty/ids.cfg</Path>
-                <MD5>6565e6f32672467556846908e56de579</MD5>
+                <URL>http://singulo.co/develop/config/biomesoplenty/terraingen.cfg</URL>
+                <Path>config/biomesoplenty/terraingen.cfg</Path>
+                <MD5>6293fca6409bc423d3e3a82a0ccafe1c</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/main.cfg</URL>
+                <Path>config/biomesoplenty/main.cfg</Path>
+                <MD5>b6fefc68716569a48366c46f6b3152f4</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/biomeweights.cfg</URL>
+                <Path>config/biomesoplenty/biomeweights.cfg</Path>
+                <MD5>00b0e1d46ea2f5ba057651fad4428ca7</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/misc.cfg</URL>
+                <Path>config/biomesoplenty/misc.cfg</Path>
+                <MD5>7f10e0960fbc388a13b756f9f4a50b84</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/biomegen.cfg</URL>
+                <Path>config/biomesoplenty/biomegen.cfg</Path>
+                <MD5>c77ea044c88944867920433ee0b12a30</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/structures/strongholds.cfg</URL>
+                <Path>config/biomesoplenty/structures/strongholds.cfg</Path>
+                <MD5>827e630b5365941a5dcb1ce3924b2df2</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/structures/villages.cfg</URL>
+                <Path>config/biomesoplenty/structures/villages.cfg</Path>
+                <MD5>77066d34f3ae65c8a05382f553714be5</MD5>
             </ConfigFile>
         </Module>
         <Module id="villagetaverns" name="WorldGen: Village Taverns">
