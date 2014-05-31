@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="1.0.1">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.2">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -39,6 +39,17 @@
                 <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
             </Meta>
         </Module>
+        <Module id="voxelmap" name="VoxelMap">
+            <URL>http://singulo.co/mods/voxelmap-1.7.2-1.0.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>0686920d2840b7de4630307c0e950fe3</MD5>
+            <Meta>
+                <version>1.7.2-1.0</version>
+                <URL>http://www.planetminecraft.com/mod/zans-minimap/</URL>
+            </Meta>
+        </Module>
+
         <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">
             <URL>http://singulo.co/mods/biomesoplenty-2.0.0.840.jar</URL>
             <Required>true</Required>
