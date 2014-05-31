@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="1.0.0">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="1.0.1">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -67,6 +67,21 @@
                 <URL>http://singulo.co/develop/config/taverns.cfg</URL>
                 <Path>taverns.cfg</Path>
                 <MD5>1d3ae6078bf330331abf2939b6c3d927</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="wildcaves" name="WorldGen: WildCaves 3">
+            <URL>http://singulo.co/mods/wildcaves3-0.4.3.6.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>94d3b07bdea1a3773d95d344739d65dd</MD5>
+            <Meta>
+                <version>0.4.3.6</version>
+                <URL>http://www.minecraftforum.net/topic/1651891-172forgegotolink-updates-formivores-mods-customization-and-mob-support/#WildCaves</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/wildcaves3.cfg</URL>
+                <Path>wildcaves3.cfg</Path>
+                <MD5>11bf275ec142b74e0cde4e28254b6f23</MD5>
             </ConfigFile>
         </Module>
     </Server>
