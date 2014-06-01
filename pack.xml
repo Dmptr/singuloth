@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.6">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.7">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -143,6 +143,36 @@
                 <URL>http://singulo.co/develop/config/Thaumcraft.cfg</URL>
                 <Path>config/Thaumcraft.cfg</Path>
                 <MD5>e30a65445fadd1a1898536769fd4aec1</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="chisel" id="Chisel">
+            <URL>http://singulo.co/mods/chisel-1.5.4d.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>0ffa6e62e06b0278f4764556ce0dc1b3</MD5>
+            <Meta>
+                <version>1.5.4d</version>
+                <URL>http://www.minecraftforum.net/topic/2592047-172-smp-forge-chisel/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/chisel.cfg</URL>
+                <Path>config/chisel.cfg</Path>
+                <MD5>f28c497c2fce7066442bd519fe5ea33b</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="carpenters" id="Carpenters ">
+            <URL>http://singulo.co/mods/carpenters-3.1.5.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>83a5a0443969403db712671d82d33957</MD5>
+            <Meta>
+                <version>3.1.5</version>
+                <URL>http://www.minecraftforum.net/topic/1790919-17forge-carpenters-blocks-v315/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/CarpentersBlocks.cfg</URL>
+                <Path>config/CarpentersBlocks.cfg</Path>
+                <MD5>3463cc29e2668f0b18c099cf8dab9363</MD5>
             </ConfigFile>
         </Module>
         <Module id="jabba" name="JABBA">
