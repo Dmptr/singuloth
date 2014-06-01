@@ -10,3 +10,4 @@ Changelog:
 * 0.0.6: Added JABBA
 * 0.0.7: Aesthetic Update! Added Carpenters Blocks and Chisel.
 * 0.0.7.1: Swap name and ID
+* 0.0.8: Added AE2

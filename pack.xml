@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.7.1">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.8">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -143,6 +143,26 @@
                 <URL>http://singulo.co/develop/config/Thaumcraft.cfg</URL>
                 <Path>config/Thaumcraft.cfg</Path>
                 <MD5>e30a65445fadd1a1898536769fd4aec1</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="appliedenergistics2" name="Applied Energistics 2">
+            <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-17.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>f6ffecabe83380751ca8a1bf932edd13</MD5>
+            <Meta>
+                <version>rv0-beta-17</version>
+                <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-41114-updated-2052014/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
+                <Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
+                <MD5>37b11e6417f096cc1ef3de774699a90f</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/AppliedEnergistics2/Facades.cfg</URL>
+                <Path>config/AppliedEnergistics2/Facades.cfg</Path>
+                <MD5>a95207fd52a2eb5aed98314162c8375c</MD5>
             </ConfigFile>
         </Module>
         <Module id="chisel" name="Chisel">
