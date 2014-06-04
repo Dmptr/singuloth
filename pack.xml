@@ -146,7 +146,7 @@
                 <MD5>11bf275ec142b74e0cde4e28254b6f23</MD5>
             </ConfigFile>
         </Module>
-        <Module id="rougelike" name="WorldGen: Rougelike Dungeons">
+        <Module id="roguelike" name="WorldGen: Roguelike Dungeons">
             <URL>http://singulo.co/mods/roguelike-1.2.9.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -156,8 +156,8 @@
                 <URL>http://www.minecraftforum.net/topic/1874883-164roguelike-dungeonsv131/</URL>
             </Meta>
             <ConfigFile>
-                <URL>http://singulo.co/develop/config/rougelike.cfg</URL>
-                <Path>config/rougelike.cfg</Path>
+                <URL>http://singulo.co/develop/config/roguelike.cfg</URL>
+                <Path>config/roguelike.cfg</Path>
                 <MD5>55a81edf3f3c57dcf5430de9e517cd36</MD5>
             </ConfigFile>
         </Module>
