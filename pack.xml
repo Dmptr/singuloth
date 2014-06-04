@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.11">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.12">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -80,12 +80,12 @@
         </Module>
 
         <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">
-            <URL>http://singulo.co/mods/biomesoplenty-2.0.0.840.jar</URL>
+            <URL>http://singulo.co/mods/biomesoplenty-2.0.0.863.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>cf15c5f97430d916286d91e5885aedf2</MD5>
+            <MD5>3473bfa5fb7dc59c76cdffc6f51345a8</MD5>
             <Meta>
-                <version>2.0.0.840</version>
+                <version>2.0.0.863</version>
                 <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
             </Meta>
             <ConfigFile>
@@ -190,10 +190,10 @@
             </ConfigFile>
         </Module>
         <Module id="appliedenergistics2" name="Applied Energistics 2">
-            <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-17.jar</URL>
+            <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-22.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>f6ffecabe83380751ca8a1bf932edd13</MD5>
+            <MD5>39a7c4c4ebd40990b64cb2509743c0d7</MD5>
             <Meta>
                 <version>rv0-beta-17</version>
                 <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-41114-updated-2052014/</URL>
@@ -210,10 +210,10 @@
             </ConfigFile>
         </Module>
         <Module id="chisel" name="Chisel">
-            <URL>http://singulo.co/mods/chisel-1.5.4d.jar</URL>
+            <URL>http://singulo.co/mods/chisel-1.5.4e.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>0ffa6e62e06b0278f4764556ce0dc1b3</MD5>
+            <MD5>bbd32e71c06c63cb0fe9a6042a8004f7</MD5>
             <Meta>
                 <version>1.5.4d</version>
                 <URL>http://www.minecraftforum.net/topic/2592047-172-smp-forge-chisel/</URL>
