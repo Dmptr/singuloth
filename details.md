@@ -15,3 +15,4 @@ Changelog:
 * 0.0.10: Added a pre-made selection of shaderpacks!
 * 0.0.11: Pre-set configs, minor tweaks
 * 0.0.12: Updated various mods
+* 0.0.13: Updated forge
