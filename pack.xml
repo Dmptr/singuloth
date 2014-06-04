@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.8">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.9">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -39,7 +39,17 @@
                 <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
             </Meta>
         </Module>
-        <Module id="voxelmap" name="VoxelMap">
+        <Module id="shaders" name="Shaders Mod">
+            <URL>http://singulo.co/mods/shaders-2.3.12.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>186f12ef78a928c2570188eee05620c3</MD5>
+            <Meta>
+                <version>2.3.12</version>
+                <URL>http://www.minecraftforum.net/topic/1544257-172174175shaders-mod-v2312-updated-by-karyonix/</URL>
+            </Meta>
+        </Module>
+        <Module id="voxelmap" name="VoxelMap" side="CLIENT">
             <URL>http://singulo.co/mods/voxelmap-1.7.2-1.0.jar</URL>
             <Required isDefault="true">false</Required>
             <ModType>Regular</ModType>
@@ -128,6 +138,21 @@
                 <URL>http://singulo.co/develop/config/wildcaves3.cfg</URL>
                 <Path>config/wildcaves3.cfg</Path>
                 <MD5>11bf275ec142b74e0cde4e28254b6f23</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="rougelike" name="WorldGen: Rougelike Dungeons">
+            <URL>http://singulo.co/mods/roguelike-1.2.9.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>bf55f9b7f537746f4e7121014e6bf865</MD5>
+            <Meta>
+                <version>1.2.9</version>
+                <URL>http://www.minecraftforum.net/topic/1874883-164roguelike-dungeonsv131/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/rougelike.cfg</URL>
+                <Path>config/rougelike.cfg</Path>
+                <MD5>55a81edf3f3c57dcf5430de9e517cd36</MD5>
             </ConfigFile>
         </Module>
         <Module id="thaumcraft4" name="Thaumcraft 4">
