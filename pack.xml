@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.10">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.11">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -17,6 +17,13 @@
                 <URL>http://singulo.co/develop/config/CodeChickenCore.cfg</URL>
                 <Path>config/CodeChickenCore.cfg</Path>
                 <MD5>ee11a8fc6fc8a04bac09db816fa76289</MD5>
+            </ConfigFile>
+            <!-- NOT ACTUALLY CODECHICKEN -->
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/options.txt</URL>
+                <Path>options.txt</Path>
+                <NoOverwrite>true</NoOverwrite>
+                <MD5>0cf2e869ad88f94cb290e9b885f5b369</MD5>
             </ConfigFile>
         </Module>
         <Module id="nei" name="NEI">
@@ -64,6 +71,12 @@
                 <version>1.7.2-1.0</version>
                 <URL>http://www.planetminecraft.com/mod/zans-minimap/</URL>
             </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/VoxelMods/voxelmap.properties</URL>
+                <Path>mods/VoxelMods/voxelmap.properties</Path>
+                <NoOverwrite>true</NoOverwrite>
+                <MD5>d1e0bb2947f728385c6bc7dd97a5d355</MD5>
+            </ConfigFile>
         </Module>
 
         <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">

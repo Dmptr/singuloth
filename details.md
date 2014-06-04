@@ -13,3 +13,4 @@ Changelog:
 * 0.0.8: Added AE2
 * 0.0.9: Added Shaders Core and Rougelike Dungeons!
 * 0.0.10: Added a pre-made selection of shaderpacks!
+* 0.0.11: Pre-set configs, minor tweaks
