@@ -12,3 +12,4 @@ Changelog:
 * 0.0.7.1: Swap name and ID
 * 0.0.8: Added AE2
 * 0.0.9: Added Shaders Core and Rougelike Dungeons!
+* 0.0.10: Added a pre-made selection of shaderpacks!

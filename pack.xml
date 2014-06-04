@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.9">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.10">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1074">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -41,13 +41,19 @@
         </Module>
         <Module id="shaders" name="Shaders Mod">
             <URL>http://singulo.co/mods/shaders-2.3.12.jar</URL>
-            <Required isDefault="true">false</Required>
+            <Required isDefault="false">false</Required>
             <ModType>Regular</ModType>
             <MD5>186f12ef78a928c2570188eee05620c3</MD5>
             <Meta>
                 <version>2.3.12</version>
                 <URL>http://www.minecraftforum.net/topic/1544257-172174175shaders-mod-v2312-updated-by-karyonix/</URL>
             </Meta>
+            <Submodule name="Shaderpack Collection" id="shaderpacks">
+                <URL>http://singulo.co/mods/shaderpacks-1.0.0.zip</URL>
+                <Required isDefault="true">false</Required>
+                <ModType inRoot="true">Extract</ModType>
+                <MD5>ce426db5a7e818e999abd1beb18d36d1</MD5>
+            </Submodule>
         </Module>
         <Module id="voxelmap" name="VoxelMap" side="CLIENT">
             <URL>http://singulo.co/mods/voxelmap-1.7.2-1.0.jar</URL>
