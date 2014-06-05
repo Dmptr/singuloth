@@ -17,3 +17,4 @@ Changelog:
 * 0.0.12: Updated various mods
 * 0.0.13: Updated forge
 * 0.0.14: Added RailCraft
+* 0.0.15: Added OpenEye and Refined Relocation

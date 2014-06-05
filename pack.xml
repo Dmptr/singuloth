@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.14">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
@@ -78,7 +78,36 @@
                 <MD5>d1e0bb2947f728385c6bc7dd97a5d355</MD5>
             </ConfigFile>
         </Module>
-
+        <Module id="openeye" name="OpenEye">
+            <URL>http://singulo.co/mods/openeye-0.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>566f689899f806756cc98ad816595ef4</MD5>
+            <Meta>
+                <version>1.1.3-1.7.2</version>
+                <URL>http://openeye.openmods.info/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/OpenEye.json</URL>
+                <Path>config/OpenEye.json</Path>
+                <MD5>EA905B17DC3E7762A6EE373270044E35</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="refinedrelocation" name="Refined Relocation">
+            <URL>http://singulo.co/mods/refinedrelocation-1.0.4e.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>90da0eafc664200801fa647c09be0338</MD5>
+            <Meta>
+                <version>1.0.4e</version>
+                <URL>http://www.minecraftforum.net/topic/2210752-164172-refined-relocation-104-solves-your-transportation-problems-ftb-styled/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/RefinedRelocation.cfg</URL>
+                <Path>config/RefinedRelocation.cfg</Path>
+                <MD5>DDFD03ACB3EF470839F30FF65CE17956</MD5>
+            </ConfigFile>
+        </Module>
         <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">
             <URL>http://singulo.co/mods/biomesoplenty-2.0.0.863.jar</URL>
             <Required>true</Required>
