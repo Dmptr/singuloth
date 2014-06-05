@@ -4,6 +4,16 @@
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
     <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
+        <Module id="options.txt" name="Default Options">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/options.txt</URL>
+                <Path>options.txt</Path>
+                <NoOverwrite>true</NoOverwrite>
+                <MD5>0cf2e869ad88f94cb290e9b885f5b369</MD5>
+            </ConfigFile>
+        </Module>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
             <Required>true</Required>
@@ -17,13 +27,6 @@
                 <URL>http://singulo.co/develop/config/CodeChickenCore.cfg</URL>
                 <Path>config/CodeChickenCore.cfg</Path>
                 <MD5>ee11a8fc6fc8a04bac09db816fa76289</MD5>
-            </ConfigFile>
-            <!-- NOT ACTUALLY CODECHICKEN -->
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/options.txt</URL>
-                <Path>options.txt</Path>
-                <NoOverwrite>true</NoOverwrite>
-                <MD5>0cf2e869ad88f94cb290e9b885f5b369</MD5>
             </ConfigFile>
         </Module>
         <Module id="nei" name="NEI">
