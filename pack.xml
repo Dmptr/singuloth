@@ -49,7 +49,7 @@
                 <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
             </Meta>
         </Module>
-        <Module id="shaders" name="Shaders Mod">
+        <Module id="shaders" name="Shaders Mod" side="CLIENT">
             <URL>http://singulo.co/mods/shaders-2.3.12.jar</URL>
             <Required isDefault="false">false</Required>
             <ModType>Regular</ModType>
