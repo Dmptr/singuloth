@@ -3,7 +3,7 @@
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
     <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
+        <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -14,6 +14,8 @@
                 <MD5>0cf2e869ad88f94cb290e9b885f5b369</MD5>
             </ConfigFile>
         </Module>
+        <!-- Libraries -->
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
             <Required>true</Required>
@@ -29,89 +31,8 @@
                 <MD5>ee11a8fc6fc8a04bac09db816fa76289</MD5>
             </ConfigFile>
         </Module>
-        <Module id="nei" name="NEI">
-            <URL>http://singulo.co/mods/nei-1.0.1.jar</URL>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>f40d0d93115553348eac465d9c44e7ea</MD5>
-            <Meta>
-                <version>1.0.1</version>
-                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
-            </Meta>
-        </Module>
-        <Module id="walia" name="NEI: WALIA">
-            <URL>http://singulo.co/mods/walia-1.5.2a.jar</URL>
-            <Required isDefault="true">false</Required>
-            <ModType>Regular</ModType>
-            <MD5>9bfd4f6e3386825444ce6bdac3ca5528</MD5>
-            <Meta>
-                <version>1.5.2a</version>
-                <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
-            </Meta>
-        </Module>
-        <Module id="shaders" name="Shaders Mod" side="CLIENT">
-            <URL>http://singulo.co/mods/shaders-2.3.12.jar</URL>
-            <Required isDefault="false">false</Required>
-            <ModType>Regular</ModType>
-            <MD5>186f12ef78a928c2570188eee05620c3</MD5>
-            <Meta>
-                <version>2.3.12</version>
-                <URL>http://www.minecraftforum.net/topic/1544257-172174175shaders-mod-v2312-updated-by-karyonix/</URL>
-            </Meta>
-            <Submodule name="Shaderpack Collection" id="shaderpacks">
-                <URL>http://singulo.co/mods/shaderpacks-1.0.0.zip</URL>
-                <Required isDefault="true">false</Required>
-                <ModType inRoot="true">Extract</ModType>
-                <MD5>ce426db5a7e818e999abd1beb18d36d1</MD5>
-            </Submodule>
-        </Module>
-        <Module id="voxelmap" name="VoxelMap" side="CLIENT">
-            <URL>http://singulo.co/mods/voxelmap-1.7.2-1.0.jar</URL>
-            <Required isDefault="true">false</Required>
-            <ModType>Regular</ModType>
-            <MD5>0686920d2840b7de4630307c0e950fe3</MD5>
-            <Meta>
-                <version>1.7.2-1.0</version>
-                <URL>http://www.planetminecraft.com/mod/zans-minimap/</URL>
-            </Meta>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/VoxelMods/voxelmap.properties</URL>
-                <Path>mods/VoxelMods/voxelmap.properties</Path>
-                <NoOverwrite>true</NoOverwrite>
-                <MD5>d1e0bb2947f728385c6bc7dd97a5d355</MD5>
-            </ConfigFile>
-        </Module>
-        <Module id="openeye" name="OpenEye">
-            <URL>http://singulo.co/mods/openeye-0.5.jar</URL>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>566f689899f806756cc98ad816595ef4</MD5>
-            <Meta>
-                <version>0.5</version>
-                <URL>http://openeye.openmods.info/</URL>
-            </Meta>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/OpenEye.json</URL>
-                <Path>config/OpenEye.json</Path>
-                <MD5>10EAD39CC07C19B59B81FAEF30B2279A</MD5>
-            </ConfigFile>
-        </Module>
-        <Module id="refinedrelocation" name="Refined Relocation">
-            <URL>http://singulo.co/mods/refinedrelocation-1.0.4e.jar</URL>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>90da0eafc664200801fa647c09be0338</MD5>
-            <Meta>
-                <version>1.0.4e</version>
-                <URL>http://www.minecraftforum.net/topic/2210752-164172-refined-relocation-104-solves-your-transportation-problems-ftb-styled/</URL>
-            </Meta>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/RefinedRelocation.cfg</URL>
-                <Path>config/RefinedRelocation.cfg</Path>
-                <MD5>DDFD03ACB3EF470839F30FF65CE17956</MD5>
-            </ConfigFile>
-        </Module>
-        <Module id="biomesoplenty" name="WorldGen: Biomes'o'plenty">
+        <!-- Worldgen Mods -->
+        <Module id="biomesoplenty" name="Biomes O' Plenty">
             <URL>http://singulo.co/mods/biomesoplenty-2.0.0.863.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -121,19 +42,19 @@
                 <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
             </Meta>
             <ConfigFile>
+                <URL>http://singulo.co/develop/config/biomesoplenty/main.cfg</URL>
+                <Path>config/biomesoplenty/main.cfg</Path>
+                <MD5>b6fefc68716569a48366c46f6b3152f4</MD5>
+            </ConfigFile>
+            <ConfigFile>
                 <URL>http://singulo.co/develop/config/biomesoplenty/ids.cfg</URL>
                 <Path>config/biomesoplenty/ids.cfg</Path>
                 <MD5>6565e6f32672467556846908e56de579</MD5>
-           </ConfigFile>
+            </ConfigFile>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/biomesoplenty/terraingen.cfg</URL>
                 <Path>config/biomesoplenty/terraingen.cfg</Path>
                 <MD5>6293fca6409bc423d3e3a82a0ccafe1c</MD5>
-            </ConfigFile>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/biomesoplenty/main.cfg</URL>
-                <Path>config/biomesoplenty/main.cfg</Path>
-                <MD5>b6fefc68716569a48366c46f6b3152f4</MD5>
             </ConfigFile>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/biomesoplenty/biomeweights.cfg</URL>
@@ -161,7 +82,7 @@
                 <MD5>77066d34f3ae65c8a05382f553714be5</MD5>
             </ConfigFile>
         </Module>
-        <Module id="villagetaverns" name="WorldGen: Village Taverns">
+        <Module id="villagetaverns" name="Village Taverns">
             <URL>http://singulo.co/mods/villagetaverns-2.2.1-0.23.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -176,7 +97,7 @@
                 <MD5>1d3ae6078bf330331abf2939b6c3d927</MD5>
             </ConfigFile>
         </Module>
-        <Module id="wildcaves" name="WorldGen: WildCaves 3">
+        <Module id="wildcaves" name="WildCaves 3">
             <URL>http://singulo.co/mods/wildcaves3-0.4.3.6.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -191,7 +112,7 @@
                 <MD5>11bf275ec142b74e0cde4e28254b6f23</MD5>
             </ConfigFile>
         </Module>
-        <Module id="roguelike" name="WorldGen: Roguelike Dungeons">
+        <Module id="roguelike" name="Roguelike Dungeons">
             <URL>http://singulo.co/mods/roguelike-1.2.9.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -206,6 +127,7 @@
                 <MD5>55a81edf3f3c57dcf5430de9e517cd36</MD5>
             </ConfigFile>
         </Module>
+        <!-- Magic Mods -->
         <Module id="thaumcraft4" name="Thaumcraft 4">
             <URL>http://singulo.co/mods/thaumcraft-4.1.1.14.jar</URL>
             <Required>true</Required>
@@ -221,26 +143,7 @@
                 <MD5>e30a65445fadd1a1898536769fd4aec1</MD5>
             </ConfigFile>
         </Module>
-        <Module id="appliedenergistics2" name="Applied Energistics 2">
-            <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-22.jar</URL>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>39a7c4c4ebd40990b64cb2509743c0d7</MD5>
-            <Meta>
-                <version>rv0-beta-17</version>
-                <URL>http://ae-mod.info/</URL>
-            </Meta>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
-                <Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
-                <MD5>37b11e6417f096cc1ef3de774699a90f</MD5>
-            </ConfigFile>
-            <ConfigFile>
-                <URL>http://singulo.co/develop/config/AppliedEnergistics2/Facades.cfg</URL>
-                <Path>config/AppliedEnergistics2/Facades.cfg</Path>
-                <MD5>a95207fd52a2eb5aed98314162c8375c</MD5>
-            </ConfigFile>
-        </Module>
+        <!-- Automation Mods -->
         <Module id="railcraft" name="RailCraft">
             <URL>http://singulo.co/mods/railcraft-9.0.0.0.jar</URL>
             <Required>true</Required>
@@ -271,6 +174,58 @@
                 <MD5>d93d7ac0e463eea718ac29e477373258</MD5>
             </ConfigFile>
         </Module>
+        <!-- Storage Mods -->
+        <Module id="appliedenergistics2" name="Applied Energistics 2">
+            <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-22.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>39a7c4c4ebd40990b64cb2509743c0d7</MD5>
+            <Meta>
+                <version>rv0-beta-17</version>
+                <URL>http://ae-mod.info/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
+                <Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
+                <MD5>37b11e6417f096cc1ef3de774699a90f</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/AppliedEnergistics2/Facades.cfg</URL>
+                <Path>config/AppliedEnergistics2/Facades.cfg</Path>
+                <MD5>a95207fd52a2eb5aed98314162c8375c</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="refinedrelocation" name="Refined Relocation">
+            <URL>http://singulo.co/mods/refinedrelocation-1.0.4e.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>90da0eafc664200801fa647c09be0338</MD5>
+            <Meta>
+                <version>1.0.4e</version>
+                <URL>http://www.minecraftforum.net/topic/2210752-164172-refined-relocation-104-solves-your-transportation-problems-ftb-styled/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/RefinedRelocation.cfg</URL>
+                <Path>config/RefinedRelocation.cfg</Path>
+                <MD5>DDFD03ACB3EF470839F30FF65CE17956</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="jabba" name="JABBA">
+            <URL>http://singulo.co/mods/jabba-1.1.3-1.7.2.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>a0000db0a988173d92b579a123560d17</MD5>
+            <Meta>
+                <version>1.1.3-1.7.2</version>
+                <URL>http://www.minecraftforum.net/topic/2182366-172164-jabba-113-just-another-better-barrel-attempt/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/JABBA.cfg</URL>
+                <Path>config/JABBA.cfg</Path>
+                <MD5>3e9fc984e2398445ba545f5cc736fa3f</MD5>
+            </ConfigFile>
+        </Module>
+        <!-- Aesthetic Mods -->
         <Module id="chisel" name="Chisel">
             <URL>http://singulo.co/mods/chisel-1.5.4e.jar</URL>
             <Required>true</Required>
@@ -301,19 +256,73 @@
                 <MD5>3463cc29e2668f0b18c099cf8dab9363</MD5>
             </ConfigFile>
         </Module>
-        <Module id="jabba" name="JABBA">
-            <URL>http://singulo.co/mods/jabba-1.1.3-1.7.2.jar</URL>
+        <!-- Client/Visual Mods -->
+        <Module id="nei" name="NEI">
+            <URL>http://singulo.co/mods/nei-1.0.1.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>a0000db0a988173d92b579a123560d17</MD5>
+            <MD5>f40d0d93115553348eac465d9c44e7ea</MD5>
             <Meta>
-                <version>1.1.3-1.7.2</version>
-                <URL>http://www.minecraftforum.net/topic/2182366-172164-jabba-113-just-another-better-barrel-attempt/</URL>
+                <version>1.0.1</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="walia" name="NEI: WALIA">
+            <URL>http://singulo.co/mods/walia-1.5.2a.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>9bfd4f6e3386825444ce6bdac3ca5528</MD5>
+            <Meta>
+                <version>1.5.2a</version>
+                <URL>http://www.minecraftforum.net/topic/1846244-172-waila-152/</URL>
+            </Meta>
+        </Module>
+        <Module id="voxelmap" name="VoxelMap" side="CLIENT">
+            <URL>http://singulo.co/mods/voxelmap-1.7.2-1.0.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>0686920d2840b7de4630307c0e950fe3</MD5>
+            <Meta>
+                <version>1.7.2-1.0</version>
+                <URL>http://www.planetminecraft.com/mod/zans-minimap/</URL>
             </Meta>
             <ConfigFile>
-                <URL>http://singulo.co/develop/config/JABBA.cfg</URL>
-                <Path>config/JABBA.cfg</Path>
-                <MD5>3e9fc984e2398445ba545f5cc736fa3f</MD5>
+                <URL>http://singulo.co/develop/config/VoxelMods/voxelmap.properties</URL>
+                <Path>mods/VoxelMods/voxelmap.properties</Path>
+                <NoOverwrite>true</NoOverwrite>
+                <MD5>d1e0bb2947f728385c6bc7dd97a5d355</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="shaders" name="Shaders Mod" side="CLIENT">
+            <URL>http://singulo.co/mods/shaders-2.3.12.jar</URL>
+            <Required isDefault="false">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>186f12ef78a928c2570188eee05620c3</MD5>
+            <Meta>
+                <version>2.3.12</version>
+                <URL>http://www.minecraftforum.net/topic/1544257-172174175shaders-mod-v2312-updated-by-karyonix/</URL>
+            </Meta>
+            <Submodule name="Shaderpack Collection" id="shaderpacks">
+                <URL>http://singulo.co/mods/shaderpacks-1.0.0.zip</URL>
+                <Required isDefault="true">false</Required>
+                <ModType inRoot="true">Extract</ModType>
+                <MD5>ce426db5a7e818e999abd1beb18d36d1</MD5>
+            </Submodule>
+        </Module>
+        <!-- Stats -->
+        <Module id="openeye" name="OpenEye">
+            <URL>http://singulo.co/mods/openeye-0.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>566f689899f806756cc98ad816595ef4</MD5>
+            <Meta>
+                <version>0.5</version>
+                <URL>http://openeye.openmods.info/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/OpenEye.json</URL>
+                <Path>config/OpenEye.json</Path>
+                <MD5>10EAD39CC07C19B59B81FAEF30B2279A</MD5>
             </ConfigFile>
         </Module>
     </Server>
