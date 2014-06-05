@@ -2,9 +2,9 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
+    <Server id="singulo" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
         <!-- Vanilla -->
-        <Module id="options.txt" name="Default Options">
+        <Module id="options" name="Default Options">
             <Required>true</Required>
             <ModType>Regular</ModType>
             <ConfigFile>
@@ -16,7 +16,7 @@
         </Module>
         <!-- Libraries -->
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
-        <Module id="codechickencore" name="CodeChickenCore">
+        <Module id="codechicken" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -32,7 +32,7 @@
             </ConfigFile>
         </Module>
         <!-- Worldgen Mods -->
-        <Module id="biomesoplenty" name="Biomes O' Plenty">
+        <Module id="biomesop" name="Biomes O' Plenty">
             <URL>http://singulo.co/mods/biomesoplenty-2.0.0.863.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -82,7 +82,7 @@
                 <MD5>77066d34f3ae65c8a05382f553714be5</MD5>
             </ConfigFile>
         </Module>
-        <Module id="villagetaverns" name="Village Taverns">
+        <Module id="taverns" name="Village Taverns">
             <URL>http://singulo.co/mods/villagetaverns-2.2.1-0.23.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
@@ -175,7 +175,7 @@
             </ConfigFile>
         </Module>
         <!-- Storage Mods -->
-        <Module id="appliedenergistics2" name="Applied Energistics 2">
+        <Module id="ae2" name="Applied Energistics 2">
             <URL>http://singulo.co/mods/appliedenergistics2-rv0-beta-22.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
