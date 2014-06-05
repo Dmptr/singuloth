@@ -6,7 +6,7 @@
         },
         "mainScreenExtraLine": {
             "comment": "Enables extra line in main menu screen under buttons (if true, only note button will be displayed)",
-            "value": false
+            "value": true
         }
     },
     "features": {

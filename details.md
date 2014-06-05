@@ -18,3 +18,4 @@ Changelog:
 * 0.0.13: Updated forge
 * 0.0.14: Added RailCraft
 * 0.0.15: Added OpenEye and Refined Relocation
+* 0.0.15.1: Tweak OpenEye Config
