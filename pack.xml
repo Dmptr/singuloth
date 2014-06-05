@@ -196,7 +196,7 @@
             <MD5>39a7c4c4ebd40990b64cb2509743c0d7</MD5>
             <Meta>
                 <version>rv0-beta-17</version>
-                <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-41114-updated-2052014/</URL>
+                <URL>http://ae-mod.info/</URL>
             </Meta>
             <ConfigFile>
                 <URL>http://singulo.co/develop/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
@@ -207,6 +207,36 @@
                 <URL>http://singulo.co/develop/config/AppliedEnergistics2/Facades.cfg</URL>
                 <Path>config/AppliedEnergistics2/Facades.cfg</Path>
                 <MD5>a95207fd52a2eb5aed98314162c8375c</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="railcraft" name="RailCraft">
+            <URL>http://singulo.co/mods/railcraft-9.0.0.0.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>C1FC3F2FCADE6596C16A75821D9CA11E</MD5>
+            <Meta>
+                <version>9.0.0.0</version>
+                <URL>http://www.railcraft.info/</URL>
+            </Meta>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/railcraft/railcraft.cfg</URL>
+                <Path>config/railcraft/railcraft.cfg</Path>
+                <MD5>7cfe5d4f4a13e2335926e00db90255a2</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/railcraft/blocks.cfg</URL>
+                <Path>config/railcraft/blocks.cfg</Path>
+                <MD5>38e6dc44e618c4bc7f2a2d550b8c989c</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/railcraft/items.cfg</URL>
+                <Path>config/railcraft/items.cfg</Path>
+                <MD5>a735df0bda4c51b1849e1be226ccb4d5</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://singulo.co/develop/config/railcraft/modules.cfg</URL>
+                <Path>config/railcraft/modules.cfg</Path>
+                <MD5>d93d7ac0e463eea718ac29e477373258</MD5>
             </ConfigFile>
         </Module>
         <Module id="chisel" name="Chisel">
