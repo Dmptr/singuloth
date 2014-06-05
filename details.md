@@ -16,3 +16,4 @@ Changelog:
 * 0.0.11: Pre-set configs, minor tweaks
 * 0.0.12: Updated various mods
 * 0.0.13: Updated forge
+* 0.0.14: Added RailCraft
