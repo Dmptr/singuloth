@@ -19,3 +19,4 @@ Changelog:
 * 0.0.14: Added RailCraft
 * 0.0.15: Added OpenEye and Refined Relocation
 * 0.0.15.1: Tweak OpenEye Config
+* 0.0.16: Added smart moving

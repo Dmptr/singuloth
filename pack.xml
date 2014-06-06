@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.16">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
@@ -265,6 +265,16 @@
             <Meta>
                 <version>1.0.1</version>
                 <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="smartmoving" name="Smart Moving">
+            <URL>http://singulo.co/mods/smartmoving-15.0.zip</URL>
+            <Required>true</Required>
+            <ModType>Extract</ModType>
+            <MD5>4aedc1cc5fccd6701b46e7b4ba74a602</MD5>
+            <Meta>
+                <version>15.0</version>
+                <URL>http://www.minecraftforum.net/topic/361430-172forge-smart-moving/</URL>
             </Meta>
         </Module>
         <Module id="walia" name="NEI: WALIA">
