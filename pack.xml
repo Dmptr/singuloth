@@ -3,6 +3,7 @@
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
     <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.15.1">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
             <Required>true</Required>
@@ -11,11 +12,10 @@
                 <URL>http://singulo.co/develop/config/options.txt</URL>
                 <Path>options.txt</Path>
                 <NoOverwrite>true</NoOverwrite>
-                <MD5>0cf2e869ad88f94cb290e9b885f5b369</MD5>
+                <MD5>3ED81A4FB5DECAD65B89823D5B51E680</MD5>
             </ConfigFile>
         </Module>
         <!-- Libraries -->
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
         <Module id="codechickencore" name="CodeChickenCore">
             <URL>http://singulo.co/mods/codechickencore-1.0.0.jar</URL>
             <Required>true</Required>
