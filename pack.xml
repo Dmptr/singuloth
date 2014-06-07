@@ -2,8 +2,8 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.16">
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1110">forge</Import>
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.17">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1112">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
             <Required>true</Required>
@@ -33,12 +33,12 @@
         </Module>
         <!-- Worldgen Mods -->
         <Module id="biomesoplenty" name="Biomes O' Plenty">
-            <URL>http://singulo.co/mods/biomesoplenty-2.0.0.863.jar</URL>
+            <URL>http://singulo.co/mods/biomesoplenty-2.0.0.874.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>3473bfa5fb7dc59c76cdffc6f51345a8</MD5>
+            <MD5>350342f88f07c4de0729f6300cfdd95d</MD5>
             <Meta>
-                <version>2.0.0.863</version>
+                <version>2.0.0.874</version>
                 <URL>http://www.minecraftforum.net/topic/1495041-172-forge-biomes-o-plenty-were-back/</URL>
             </Meta>
             <ConfigFile>

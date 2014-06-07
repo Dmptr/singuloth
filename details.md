@@ -20,3 +20,4 @@ Changelog:
 * 0.0.15: Added OpenEye and Refined Relocation
 * 0.0.15.1: Tweak OpenEye Config
 * 0.0.16: Added smart moving
+* 0.0.17: Update Forge and BoP to latest
