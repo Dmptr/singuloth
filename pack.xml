@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.17">
+    <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.17.1">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1112">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
@@ -86,7 +86,7 @@
             <URL>http://singulo.co/mods/villagetaverns-2.2.1-0.23.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>5db711393219c2beaada3a76ad78a845</MD5>
+            <MD5>E55F1C497C558626236CAD01CD1F4BE7</MD5>
             <Meta>
                 <version>2.2.1-0.23</version>
                 <URL>http://www.curse.com/mc-mods/minecraft/village-taverns-updated/</URL>
