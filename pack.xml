@@ -3,7 +3,7 @@
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
     <Server id="singularity" name="Singularity Pack" version="1.7.2" abstract="false" revision="0.0.17.1">
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.2&amp;forge=10.12.1.1112">forge</Import>
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.10&amp;forge=10.13.0.1152">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">
             <Required>true</Required>
